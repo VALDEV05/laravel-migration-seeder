@@ -9,7 +9,7 @@ class PageController extends Controller
 {
     public function index()
     {
-        $holiday = Holiday::all();
-        return view('home');
+        $holidays = Holiday::all();
+        return view('home', compact('holidays'));
     }
 }
