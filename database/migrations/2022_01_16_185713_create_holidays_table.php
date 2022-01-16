@@ -18,6 +18,9 @@ class CreateHolidaysTable extends Migration
             $table->string('destination');
             $table->string('departure');
             $table->bigInteger('duration');
+            $table->decimal('price');
+            $table->string('accomodation');
+            $table->string('mode_of_transport');
             $table->timestamps();
         });
     }
