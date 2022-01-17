@@ -4,8 +4,8 @@
             <img src="{{asset('img/piratinviaggio_white_logo.svg')}}" alt="">
         </div>
         <div class="main_menu d-flex">
-            <a class="text-decoration-none text-uppercase px-2" href="#">Homepage</a>
-            <a class="text-decoration-none text-uppercase px-2" href="#">Vacanze</a>
+            <a class="text-decoration-none text-uppercase px-2" href="{{route('home')}}">Home</a>
+            <a class="text-decoration-none text-uppercase px-2" href="{{route('travels')}}">Vacanze</a>
             <a class="text-decoration-none text-uppercase px-2" href="#">Contatti</a>
         </div>
 

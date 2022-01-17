@@ -15,6 +15,15 @@ class CreateTravelTable extends Migration
     {
         Schema::create('travel', function (Blueprint $table) {
             $table->id();
+            $table->string('image')->nullable();
+            $table->string('city_destination', 20);
+            $table->string('city_departure', 20);
+            $table->decimal('price', 6, 2)->nullable();
+            $table->smallInteger('max_n_person');
+            $table->date('date_departure')->nullable();
+            $table->date('date_destination')->nullable();
+            $table->boolean('discount')->default(false);
+            $table->boolean('is_available')->default(true);
             $table->timestamps();
         });
     }
