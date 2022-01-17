@@ -14,3 +14,26 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'PageController@index');
+
+
+Route::get('/travels', 'TravelController@index')->name('travels');
+
+
+
+/*
+Model: Travel
+Controller : travelController
+Migration: travels
+- id
+- address
+- city
+- post_code
+- rooms
+- square_meters
+- for_sale
+- to_let
+- is_available
+Routes:
+- travels
+- travels/1
+*/
