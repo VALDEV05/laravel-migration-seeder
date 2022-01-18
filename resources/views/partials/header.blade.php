@@ -5,7 +5,7 @@
         </div>
         <div class="main_menu d-flex">
             <a class="text-decoration-none text-uppercase px-2" href="{{route('home')}}">Home</a>
-            <a class="text-decoration-none text-uppercase px-2" href="{{route('travels')}}">Vacanze</a>
+            <a class="text-decoration-none text-uppercase px-2" href="#">Vacanze</a>
             <a class="text-decoration-none text-uppercase px-2" href="#">Contatti</a>
         </div>
 
