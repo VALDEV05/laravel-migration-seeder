@@ -5,8 +5,8 @@
         </div>
         <div class="main_menu d-flex">
             <a class="text-decoration-none text-uppercase px-2" href="{{route('home')}}">Home</a>
-            <a class="text-decoration-none text-uppercase px-2" href="#">Vacanze</a>
-            <a class="text-decoration-none text-uppercase px-2" href="#">Contatti</a>
+            <a class="text-decoration-none text-uppercase px-2" href="{{route('holidays')}}">Vacanze</a>
+            <a class="text-decoration-none text-uppercase px-2" href="{{route('contacts')}}">Contatti</a>
         </div>
 
         <div class="input-group" style="width: 20%"> 
