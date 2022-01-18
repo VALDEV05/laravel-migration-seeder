@@ -15,7 +15,6 @@
                             <div class="card-price holiday">
                                 <button class="btn btn-light price shadow-sm">
                                     <p class="mb-0">da 1200 &euro; .pp</p>
-                                    
                                 </button>
                             </div>
                             <div class="card-body holiday">
