@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Holiday;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -12,7 +13,9 @@ class PageController extends Controller
     }
     public function holidays()
     {
-        return view('holidays.index');
+        $holidays = Holiday::all();
+        //ddd($holidays);
+        return view('holidays.index', compact('holidays'));
     }
     public function contacts()
     {
